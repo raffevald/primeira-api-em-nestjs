@@ -1,0 +1,11 @@
+CREATE DATABASE oficina_nestjs;
+
+USE oficina_nestjs;
+
+CREATE TABLE pessoa (
+	id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    	nome VARCHAR(150),
+    	cpf CHAR(11),
+    	data_nasc DATE
+
+);
